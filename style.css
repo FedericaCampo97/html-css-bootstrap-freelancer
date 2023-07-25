@@ -5,6 +5,10 @@
 }
 body{
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul > li {
+    list-style: none;
 }
 header {
     height: 50px;
@@ -12,17 +16,47 @@ header {
 .container {
     max-width: 1200px;
 }
-.start{
-    width: 30%;
-    height: 45px;
+.container2{
+    max-width: 950px;
 }
+
 .firstblock{
     background-color: #1abc9c;
-    height: 600px;
-    margin: 40px auto;
+}
+.firstblock > div > img {
+    width: 50%;
+    height: auto;
 }
 .titol {
     width: 20%;
     height: 60px;
-    margin: 20px auto;
+    margin: 60px auto 20px auto;
+}
+.secondblock{
+    background-color: #1abc9c;
+}
+.btn{
+    border: white 1px solid;
+    border-radius: 7px;
+    padding: 5px 20px;
+    color: white;
+}
+.bnt2 {
+    background-color: #1abc9c;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    padding: 8px 17px;
+}
+.thirdblock {
+    background-color: #3a546d;
+}
+.social > button {
+    background-color: transparent;
+    border: white 1px solid;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+a {
+    text-decoration: none;
 }

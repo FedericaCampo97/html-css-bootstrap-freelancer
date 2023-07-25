@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+header {
+    height: 50px;
+}
+.container {
+    max-width: 1200px;
+}
+.start{
+    width: 30%;
+    height: 45px;
+}
+.firstblock{
+    background-color: #1abc9c;
+    height: 600px;
+    margin: 40px auto;
+}
+.titol {
+    width: 20%;
+    height: 60px;
+    margin: 20px auto;
+}

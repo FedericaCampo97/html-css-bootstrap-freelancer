@@ -10,21 +10,12 @@
   </head>
   <body>
     <header class="bg-dark w-100">
-        <div class="container d-flex align-items-center justify-content-between h-100">
-            <div class="start"> 
-                <a href="" class="text-white fw-semibold">START BOOTSTRAP</a>
-            </div>
-            <div class="start">
-                <a href="" class="text-white ps-3 fw-semibold">PORTFOLIO</a>
-                <a href="" class="text-white ps-3 fw-semibold">ABOUT</a>
-                <a href="" class="text-white ps-3 fw-semibold">CONTACT</a>
-            </div>
-        </div>
+        
     </header>
     <main>
         <div class="d-flex align-items-center justify-content-center w-100 firstblock">
-            <div class="text-center">
-                <img src="./img/avatar.svg" class="mb-4" alt="">
+            <div class="text-center mb-5">
+                <img src="./img/avatar.svg" class="mb-3" alt="">
                 <h1 class="text-white fw-semibold fs-1">START BOOTSTRAP</h1>
                 <p class="text-white fw-semibold fs-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
             </div>
@@ -70,16 +61,30 @@
             </div>
         </div>
         <div>
-            <div class="container2 m-auto mt-5">
+            <div class="container2 m-auto mt-5 mb-5">
                 <h1 class="fw-semibold text-center">CONTACT ME</h1>
                 <div class="mt-4">
-                    <ul>
-                        <li class="mb-4"> Name </li>
-                        <li class="mb-4"> Email Address </li>
-                        <li class="mb-5"> Phone Number </li>
-                        <li class="mb-4"> Message</li>
-                    </ul>
-                    <button class="bnt2 ms-4 mt-5"> Send </button>
+                    <div class="mb-3 row border-bottom">
+                        <label for="staticName" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                          <input type="name" readonly class="form-control d-none" id="staticEmail">
+                        </div>
+                    </div>
+                    <div class="mb-3 row border-bottom">
+                        <label for="staticName" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                          <input type="email" readonly class="form-control d-none" id="staticEmail">
+                        </div>
+                    </div>
+                    <div class="mb-3 row border-bottom">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Phone Number</label>
+                        <div class="col-sm-10">
+                          <input type="phone" class="form-control d-none" id="inputphone">
+                        </div>
+                    </div> 
+                    <div class="mb-3 row border-bottom">
+                        <label for="exampleFormControlInput1" class="form-label mb-5">Message</label>
+                    </div>               
                 </div>
             </div>
         </div>
@@ -94,9 +99,9 @@
                     <div class="col-lg-4 text-center pt-5 social col-md-4 col-xs-12">
                         <h5 class="text-white">AROUND THE WEB</h5>
                         <button class="text-white"> <i class="fa-brands fa-facebook"></i> </button>
-                        <button class="text-white"> <i class="fa-brands fa-google-plus-g"></i> </button>
-                        <button class="text-white"> <i class="fa-brands fa-twitter"></i> </button>
-                        <button class="text-white"> <i class="fa-brands fa-linkedin-in"></i> </button>
+                        <button class="text-white ms-2"> <i class="fa-brands fa-google-plus-g"></i> </button>
+                        <button class="text-white ms-2"> <i class="fa-brands fa-twitter"></i> </button>
+                        <button class="text-white ms-2"> <i class="fa-brands fa-linkedin-in"></i> </button>
                     </div>
                     <div class="col-lg-4 text-center pt-5 col-md-4 col-xs-12">
                         <h5 class="text-white"> ABOUT FREELANCER</h5>
@@ -104,9 +109,13 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </main>
-    <footer></footer>
+    <footer class="w-100 d-flex align-items-center justify-content-center">
+        <div class="m-3 text-center p-4">
+            <p class="text-white">Copyright <i class="fa-regular fa-copyright text-white"></i> Your Website 2019</p>
+        </div>
+
+    </footer>
   </body>
 </html>

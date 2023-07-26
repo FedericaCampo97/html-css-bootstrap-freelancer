@@ -59,8 +59,9 @@ textarea{
 .social > button {
     background-color: transparent;
     border: white 1px solid;
-    padding: 5px 10px;
     border-radius: 30px;
+    width: 40px;
+    height: 40px;
 }
 a {
     text-decoration: none;
